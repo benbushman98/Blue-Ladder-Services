@@ -1,0 +1,72 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yaldevi', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#blueladderlogo {
+    background-color: #A8A6A1;
+}
+
+#navbarlist {
+    list-style-type: none;
+    background-color: #A8A6A1;
+    font-size: 20px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+}
+#navbarlist a:hover{
+    color: #14A8D8;
+}
+
+nav ul li {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#info {
+    background-color: #38383B;
+}
+h1 {
+    color: #14A8D8;
+}
+#services p {
+    font-size: 20px;
+}
+
+#contactmeans ul li {
+    background-color: #38383B;
+    border: none;
+
+}
+
+hr {
+    background-color: white;
+}
+
+@media screen and (max-width:480px) {
+    #logo{
+        height: 151px;
+        width: 330px;
+    }
+}

@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#blueladderlogo {
+    background-color: #A8A6A1;
+}
+
+#navbarlist {
+    list-style-type: none;
+    background-color: #A8A6A1;
+    font-size: 20px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+}
+#navbarlist a:hover{
+    color: #14A8D8;
+}
+
+nav ul li {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#info {
+    background-color: #38383B;
+}
+h1 {
+    color: #14A8D8;
+}
+#services p {
+    font-size: 20px;
+}
+
+#contactmeans ul li {
+    background-color: #38383B;
+    border: none;
+
+}
+
+hr {
+    background-color: white;
+}
+
+@media screen and (max-width:480px) {
+    #logo{
+        height: 151px;
+        width: 330px;
+    }
+    .list-group-item{
+        padding: 0;
+    }
+}
+
+#firstname {
+    width: 300px;
+}
+#requestsubmit {
+    text-align: center;
+    font-size: 50px;
+}
+#sendbutton {
+    background-color: #14A8D8;
+}
+#sendbutton:hover {
+    background-color: royalblue;
+}
+h2 {
+    color: #A8A6A1;
+}
+#hrservices {
+    width:60%; 
+    margin-left:20% !important; 
+    margin-right:20% !important;
+}
+.formheader {
+    color: #A8A6A1;
+}
+#contactmeans ul li a:hover{
+    color: #14A8D8;
+}
+footer {
+    background-color: #38383B;
+    color: #A8A6A1;
+}
